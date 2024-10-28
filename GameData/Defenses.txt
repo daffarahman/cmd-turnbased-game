@@ -1,0 +1,4 @@
+Kosong,0,0
+Topi,2,50
+Armor,5,100
+Helmet,4,80
