@@ -1,0 +1,5 @@
+Kosong,0,0
+Pistol,9,250
+Shotgun,12,300
+Spatula,7,100
+Sendal,4,50
