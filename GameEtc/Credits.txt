@@ -1,0 +1,16 @@
+   __________  __________  _______________
+  / ____/ __ \/ ____/ __ \/  _/_  __/ ___/
+ / /   / /_/ / __/ / / / // /  / /  \__ \ 
+/ /___/ _, _/ /___/ /_/ // /  / /  ___/ / 
+\____/_/ |_/_____/_____/___/ /_/  /____/  
+
+PROGRAMMING
+Muhammad Daffa Rahman (L0124062)
+Phyrurizqi Altiano Firdauzan (L0124069)
+
+GAME LOGIC & MECHANISM
+Resyad Agung Wicaksono (L0124072)
+
+CHARACTERS AND IDEAS
+Raditya Adi Pradana (L0124070)
+Daffa Arkan Taqiya (L0124047)
