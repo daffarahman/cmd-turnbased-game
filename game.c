@@ -156,6 +156,16 @@ void ResetColor()
     SetColor(COLOR_RESET);
 }
 
+void SetHealthColor(int health, int healthMax)
+{
+    if (health <= healthMax && health >= healthMax * 0.6f)
+        SetColor(COLOR_GREEN);
+    else if (health < healthMax * 0.6f && health >= healthMax * 0.3f)
+        SetColor(COLOR_YELLOW);
+    else
+        SetColor(COLOR_RED);
+}
+
 void DrawBar(char bar, int n)
 {
     for (int i = 0; i < n; i++)
@@ -598,20 +608,19 @@ GamePlay:
         ResetColor();
 
         printf("(Player 1) %s \n", characters[P1SelectedCharacter].name);
-        SetColor(COLOR_GREEN);
+        SetHealthColor(P1Health, characters[P1SelectedCharacter].health);
         DrawBar(DEFAULT_BAR, P1Health);
         printf(" %d", P1Health);
         ResetColor();
         printf("\n\n");
 
         printf("(Player 2) %s\n", characters[P2SelectedCharacter].name);
-        SetColor(COLOR_GREEN);
+        SetHealthColor(P2Health, characters[P2SelectedCharacter].health);
         DrawBar(DEFAULT_BAR, P2Health);
         printf(" %d", P2Health);
         ResetColor();
         printf("\n\n");
 
-        // printf("ᕕ(⌐■_■)ᕗ ♪♬\t\tԅ(≖‿≖ԅ)\n\n");
         printf("\n");
 
         printf("It's Player %d Turn....!!!\n", (currentPlayer == 1) ? 1 : 2);
