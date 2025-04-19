@@ -1,14 +1,5 @@
-# Ambawick
-```
-                    _                    _      _    
-    /\             | |                  (_)    | |   
-   /  \   _ __ ___ | |__   __ ___      ___  ___| | __
-  / /\ \ | '_ ` _ \| '_ \ / _` \ \ /\ / / |/ __| |/ /
- / ____ \| | | | | | |_) | (_| |\ V  V /| | (__|   < 
-/_/    \_\_| |_| |_|_.__/ \__,_| \_/\_/ |_|\___|_|\_\
-======================================================
-```
-Ambawick is a turn based game made with C that runs in your terminal.
+# Turn Based Game running on Command Line
+This is a turn based game made with C that runs in your terminal.
 
 # Compilation
 
